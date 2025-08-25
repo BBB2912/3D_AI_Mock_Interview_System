@@ -1,0 +1,27 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.pdf-upload {
+  padding: 20px;
+}
+
+.chat-view {
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.chat-message {
+  margin: 5px 0;
+}
+
+.chat-message.user {
+  text-align: right;
+}
+
+.chat-message.bot {
+  text-align: left;
+}

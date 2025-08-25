@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "soundFile": "D:\\cdrive\\FinalYearProject\\InterviewPreparationTool\\results\\text_to_speech.ogg",
+    "duration": 6.76
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.16, "value": "X" },
+    { "start": 0.16, "end": 0.21, "value": "B" },
+    { "start": 0.21, "end": 0.54, "value": "C" },
+    { "start": 0.54, "end": 0.68, "value": "B" },
+    { "start": 0.68, "end": 0.80, "value": "X" },
+    { "start": 0.80, "end": 0.85, "value": "B" },
+    { "start": 0.85, "end": 1.04, "value": "C" },
+    { "start": 1.04, "end": 1.11, "value": "B" },
+    { "start": 1.11, "end": 1.18, "value": "C" },
+    { "start": 1.18, "end": 1.25, "value": "B" },
+    { "start": 1.25, "end": 1.46, "value": "C" },
+    { "start": 1.46, "end": 1.67, "value": "B" },
+    { "start": 1.67, "end": 1.74, "value": "G" },
+    { "start": 1.74, "end": 2.62, "value": "X" },
+    { "start": 2.62, "end": 2.75, "value": "C" },
+    { "start": 2.75, "end": 2.82, "value": "B" },
+    { "start": 2.82, "end": 2.90, "value": "A" },
+    { "start": 2.90, "end": 3.15, "value": "B" },
+    { "start": 3.15, "end": 3.22, "value": "G" },
+    { "start": 3.22, "end": 3.64, "value": "B" },
+    { "start": 3.64, "end": 3.92, "value": "F" },
+    { "start": 3.92, "end": 4.20, "value": "B" },
+    { "start": 4.20, "end": 4.34, "value": "C" },
+    { "start": 4.34, "end": 4.48, "value": "B" },
+    { "start": 4.48, "end": 4.62, "value": "C" },
+    { "start": 4.62, "end": 4.69, "value": "F" },
+    { "start": 4.69, "end": 4.76, "value": "B" },
+    { "start": 4.76, "end": 5.11, "value": "C" },
+    { "start": 5.11, "end": 5.18, "value": "B" },
+    { "start": 5.18, "end": 5.25, "value": "C" },
+    { "start": 5.25, "end": 5.46, "value": "B" },
+    { "start": 5.46, "end": 5.67, "value": "C" },
+    { "start": 5.67, "end": 5.88, "value": "B" },
+    { "start": 5.88, "end": 6.76, "value": "X" }
+  ]
+}

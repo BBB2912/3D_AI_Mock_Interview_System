@@ -1,0 +1,10 @@
+1. FRONTEND
+
+-open frot-end folder in vs code and open new terminal and by using this command install you node modules "npm install"
+Note: make sure you have node.js 
+-after setup type "npm start"
+it will start your frontend and open with your default browser
+
+2. Backend open backend folder in vs code and open new terminal and type "pip install -r requirements.txt" and setup you venv 
+
+-type "python -m uvicorn test:app --reload" it will start your backend fast api server now you can use your application in your browser
