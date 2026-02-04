@@ -3,6 +3,7 @@ import time
 import PyPDF2
 import edge_tts
 import asyncio
+from dotenv import load_dotenv
 from pydub import AudioSegment
 import subprocess
 from fastapi.responses import FileResponse
@@ -25,6 +26,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 
+
+load_dotenv()
 
 
 app = FastAPI()
@@ -49,9 +52,14 @@ class ConversationPayload(BaseModel):
 class LanguageModelProcessor:
     def __init__(self):
         # Initialize the language model (Groq)
+        google_api_key = os.getenv("GOOGLE_API_KEY")
+        if not google_api_key:
+            raise RuntimeError(
+                "Missing GOOGLE_API_KEY. Set it in your environment or in back-end/.env"
+            )
         self.llm = ChatGoogleGenerativeAI(
-            model="gemini-2.5-pro-exp-03-25",
-            api_key="AIzaSyCy8i4GnLLuS31VYE_lQVRLqxCwAQHnbY0"
+            model="gemini-2.5-flash",
+            api_key=google_api_key,
         )
 
         # Memory to hold conversation history
